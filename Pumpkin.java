@@ -5,7 +5,7 @@ public class Pumpkin extends Actor
     public void act()
     {
         // moves pumpkin
-        move(-7);
+        move(-67);
         
         // resets the position of the pumpkin on the right of the screen
         if(getX() <= 0)
