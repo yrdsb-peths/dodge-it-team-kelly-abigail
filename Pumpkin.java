@@ -10,6 +10,13 @@ public class Pumpkin extends Actor
         {
             resetPumpkin();
         }
+        
+        if(isTouching(Hero.class))
+        {
+            Skull skull = new Skull();
+            getWorld().addObject(skull, 300, 300);
+            getWorld().removeObject(this);
+        }
     }
     
     public void resetPumpkin()

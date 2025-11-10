@@ -9,5 +9,6 @@ public class MyWorld extends World {
         
         Pumpkin pumpkin = new Pumpkin();
         addObject(pumpkin, 600, 100);
+
     }
 }
