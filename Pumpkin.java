@@ -25,7 +25,7 @@ public class Pumpkin extends Actor
         
         if(x == 0)
         {
-            setLocation(600, 60);
+            setLocation(600, 100);
         }
         else if (x == 1)
         {

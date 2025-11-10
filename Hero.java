@@ -17,7 +17,7 @@ public class Hero extends Actor
         
         if (position == 0) {
             // top
-            setLocation(100, 60);
+            setLocation(100, 100);
         } else if (position == 1) {
             // middle
             setLocation(100, 200);
